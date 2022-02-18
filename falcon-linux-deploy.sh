@@ -6,12 +6,12 @@ This script installs and configures the CrowdStrike Falcon Sensor for Linux.
 
 CrowdStrike API credentials are needed to download Falcon sensor. The script recognizes the following environmental variables:
 
-    - FALCON_CLIENT_ID
-    - FALCON_CLIENT_SECRET
+    - FALCON_CLIENT_ID "22d466575ce4457cb1d32671f94ef1c3"
+    - FALCON_CLIENT_SECRET "CWPvepY41HN2zJ5093kg8iVhm6rUSQIByMOtFou7"
 
 Optional:
     - FALCON_CID                        (default: auto)
-    - FALCON_CLOUD                      (default: auto)
+    - FALCON_CLOUD                      (default: us-1)
     - FALCON_SENSOR_VERSION_DECREMENT   (default: 0 [latest])
     - FALCON_PROVISIONING_TOKEN         (default: unset)
     - FALCON_SENSOR_UPDATE_POLICY_NAME  (default: unset)
